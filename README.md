@@ -8,8 +8,6 @@ Rules and scripts have been tested under EAGLE cad 9.5.
 They're provided AS IS, with no warranty. Any feedback is greatly appreciated and
 can be provided via issue tickets.
 
-This repo is not endorsed by JLCPCB.
-
 ### Installation
 
 Copy each file in their respective folders (USER_HOME/Documents/EAGLE/).
@@ -24,6 +22,13 @@ They also include tCream/bCream solderpaste layers that could be used for the st
 
 * cam/jlcpcb_2_layer_v9.cam : For 2-layer boards
 * cam/jlcpcb_4_layer_v9.cam : For 4-layer boards
+* cam/jlcpcb_6_layer_v9.cam : For 6-layer boards
+
+### Eagle 7.2 to 8.5.2
+
+* cam/jlcpcb_2_layer_v72.cam : For 2-layer boards
+* cam/jlcpcb_4_layer_v72.cam : For 4-layer boards
+* cam/jlcpcb_6_layer_v72.cam : For 6-layer boards
 
 ### Eagle 7.1 and Lower
 
@@ -31,6 +36,7 @@ For Eagle 5, 6 and 7.1
 
 * cam/jlcpcb_2_layer_v6.cam : For 2-layer boards
 * cam/jlcpcb_4_layer_v6.cam : For 4-layer boards
+* cam/jlcpcb_6_layer_v6.cam : For 6-layer boards
 
 ## Design rules
 
