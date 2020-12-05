@@ -49,10 +49,19 @@ Note: annular ring for pads aren't minimal, in order to allow proper solderabili
 
 ## ULPs
 
-* ulps/jlcpcb_smta_exporter.ulp: BOM (bill of materials) / CPL (pick&place) exporter
+### BOM/CPL Exporter
 
-The smta exporter ULP can be used to quicken the process of creating the required files for the
-SMT assembly service.
+* BOM: Bill of Materials
+* CPL: Component Placement List (i.e. Pick and Place file)
+
+The smta exporter ULP can be used to quicken the process of creating the required files for the SMT assembly service.
+
+#### Files
+
+* ulps/jlcpcb_smta_exporter.ulp: For Eagle 9
+* ulps/jlcpcb_smta_exporter_v7.ulp: Tested in Eagle 7.7.0
+
+#### Usage
 
 Observe the following:
 
@@ -63,4 +72,4 @@ Observe the following:
 5. components rotations are sketchy and must be visually checked on the online gerber viewer once uploaded the files
 
 The ULP can extract LCSC part ordering numbers from the packages attributes. The attribute must be named _LCSC_PART_ 
-and it should contain the order code found in the parts library https://jlcpcb.com/client/index.html#/parts (eg: C25804).
+and it should contain the order code found in the parts library https://jlcpcb.com/parts (eg: C25804).
