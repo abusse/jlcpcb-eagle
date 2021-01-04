@@ -14,6 +14,8 @@ Copy each file in their respective folders (USER_HOME/Documents/EAGLE/).
 
 ## CAM jobs
 
+The details of these CAM jobs are convered in article [How to Generate Gerber and Drill Files in Autodesk Eagle](https://support.jlcpcb.com/article/137-how-to-generate-gerber-and-drill-files-in-autodesk-eagle), so they must be used together.
+
 The jobs follow the naming guidelines defined here: https://support.jlcpcb.com/article/29-suggested-naming-patterns
 
 They also include tCream/bCream solderpaste layers that could be used for the stencil service.
